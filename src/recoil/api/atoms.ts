@@ -1,13 +1,13 @@
 import {atom} from "recoil";
-import {NSFW_CATEGORIES, SFW_CATEGORIES} from "./constants";
+import {NSFW_CATEGORIES_TYPE, SFW_CATEGORIES_TYPE} from "./constants";
 import {localStorageEffect} from "./effects";
 
 export interface WaifuPicture {
   url: string
 }
 
-export type FilterOptionsType = { type: "sfw", category: SFW_CATEGORIES }
-  | { type: 'nsfw', category: NSFW_CATEGORIES }
+export type FilterOptionsType = { type: "sfw", category: SFW_CATEGORIES_TYPE }
+  | { type: 'nsfw', category: NSFW_CATEGORIES_TYPE }
 
 
 export const filterOptions = atom<FilterOptionsType>({

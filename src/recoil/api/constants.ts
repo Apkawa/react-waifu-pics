@@ -29,10 +29,10 @@ export const SFW_CATEGORIES = ['waifu',
   'poke',
   'dance',
   'cringe'] as const
-export type SFW_CATEGORIES = typeof SFW_CATEGORIES[number]
+export type SFW_CATEGORIES_TYPE = typeof SFW_CATEGORIES[number]
 
 export const NSFW_CATEGORIES = ['waifu', 'neko', 'trap', 'blowjob'] as const
-export type NSFW_CATEGORIES = typeof NSFW_CATEGORIES[number]
+export type NSFW_CATEGORIES_TYPE = typeof NSFW_CATEGORIES[number]
 
 export const CATEGORIES = {
   sfw: SFW_CATEGORIES,
