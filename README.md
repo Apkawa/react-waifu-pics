@@ -1,6 +1,8 @@
 # React waifu pics
 
-Example React+Recoil project with api to https://waifu.pics/docs
+Example React+Recoil project with api to [waify.pics](https://waifu.pics/docs)
+
+https://apkawa.github.io/react-waify-pics/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
