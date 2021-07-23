@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React waifu pics
+
+Example React+Recoil project with api to https://waifu.pics/docs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
